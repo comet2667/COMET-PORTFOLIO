@@ -1,8 +1,10 @@
+import Layout from "./components/Layout"
+
 function App() {
 
   return (
     <>
-      <h1>반갑습니다.</h1>
+      <Layout/>
     </>
   )
 }
