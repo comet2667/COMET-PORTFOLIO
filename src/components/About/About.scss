@@ -27,11 +27,11 @@
 .profile__container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 850px;
     background-color: rgb(238, 238, 238);
     h1{
+        margin-top: 70px;
         font-size: 50px;
     }
     .profile__content{
@@ -45,8 +45,25 @@
         .profile__item{
             display: flex;
             justify-content: space-between;
-            width: 500px;
             margin: 50px;
+            .profile__item__box{
+                margin-right: 30px;
+                width: 270px;
+                display: flex;
+                h3{
+                    font-size: 25px;
+                }
+                svg{
+                    margin-right: 15px;
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    p{
+                        margin-top: 10px;
+                    }
+                }
+            }
         }
     }
     

@@ -1,6 +1,6 @@
 import './About.scss';
 import profile from '../../assets/profile.png'
-import { Book, Calendar, Mailbox, MapFill, PersonCircle, PhoneFill } from 'react-bootstrap-icons';
+import { Book, Calendar2EventFill, Mailbox2, MapFill, PersonArmsUp, PhoneFill } from 'react-bootstrap-icons';
 
 function About() {
     return (
@@ -19,24 +19,48 @@ function About() {
                     <div>
                         <div className='profile__item'>
                             <div className='profile__item__box'>
-                                <div><PersonCircle/> 이름</div>
+                                <PersonArmsUp size={40} />
+                                <div>
+                                    <h3>이름</h3>
+                                    <p>박혜성</p>
+                                </div>
                             </div>
                             <div className='profile__item__box'>
-                                <div><Calendar/> 생년월일</div>
+                                <Calendar2EventFill size={40} />
+                                <div>
+                                    <h3>생년월일</h3>
+                                    <p>1996.01.27.</p>
+                                </div>
                             </div>
                             <div className='profile__item__box'>
-                                <div><MapFill/> 주소지</div>
+                                <MapFill size={40} />
+                                <div>
+                                    <h3>주소지</h3>
+                                    <p>서울특별시 광진구</p>
+                                </div>
                             </div>
                         </div>
                         <div className='profile__item'>
                             <div className='profile__item__box'>
-                                <div><PhoneFill/> 연락처</div>
+                                <PhoneFill size={40} />
+                                <div>
+                                    <h3>연락처</h3>
+                                    <p>010-7705-2667</p>
+                                </div>
                             </div>
                             <div className='profile__item__box'>
-                                <div><Mailbox/> 이메일</div>
+                                <Mailbox2 size={40} />
+                                <div>
+                                    <h3>이메일</h3>
+                                    <p>comet2667@naver.com</p>
+                                </div>
                             </div>
                             <div className='profile__item__box'>
-                                <div><Book/> 학력</div>
+                                <Book size={40} />
+                                <div>
+                                    <h3>학력</h3>
+                                    <p>원광대학교 체육교육과 졸업</p>
+                                </div>
                             </div>
                         </div>
                     </div>
