@@ -15,7 +15,39 @@
         background-color: rgb(238, 238, 238);
         margin-top: 50px;
         width: 1300px;
-        height: 700px;
         border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        h2{
+            color: rgb(55, 58, 64);
+            font-size: 40px;
+        }
+        .projects__slide{
+            width: 70%;
+            margin-top: 20px;
+            img{
+                border-radius: 10px;
+            }
+        }
+        .projects__content{
+            margin-top: 50px;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            font-size: 20px;
+            .projects__left{
+                width: 47%;
+            }
+            .projects__right{
+                width: 47%;
+            }
+            .projects__line{
+                width: 2px;
+                height: inherit;
+                background-color: rgba(104, 109, 118, 0.568);
+            }
+        }
     }
 }
