@@ -7,6 +7,7 @@ import indie1 from '../../assets/project/indiean/indie_1.png';
 import indie2 from '../../assets/project/indiean/indie_2.png';
 import indie3 from '../../assets/project/indiean/indie_3.png';
 import indie4 from '../../assets/project/indiean/indie_4.png';
+import { BracesAsterisk, CheckCircleFill, CheckLg, CodeSlash, Github, Link45deg, RocketTakeoffFill } from 'react-bootstrap-icons';
 
 function Projects() {
 
@@ -43,7 +44,37 @@ function Projects() {
                     </div>
                     <div className='projects__line'></div>
                     <div className='projects__right'>
-                        내용입니다.
+                        <table>
+                            <tr>
+                                <th><Github/>GitHub</th>
+                                <td><a href="https://github.com/indiean-project/IA-FE">Frontend</a> | <a href="https://github.com/indiean-project/IA-BE">Backend</a></td>
+                            </tr>
+                            <tr>
+                                <th><Link45deg/>URL</th>
+                                <td><a href="http://3.38.89.54:8080/">http://3.38.89.54:8080/</a></td>
+                            </tr>
+                            <tr>
+                                <th><CodeSlash/>Frontend</th>
+                                <td>React, Vite, Sass, Axios, Recoil</td>
+                            </tr>
+                            <tr>
+                                <th><BracesAsterisk/>Backend</th>
+                                <td>SpringBoot, JPA, Lombok, PostgreSQL</td>
+                            </tr>
+                            <tr>
+                                <th><RocketTakeoffFill/>Deployment</th>
+                                <td>AWS EC2</td>
+                            </tr>
+                            <tr>
+                                <th><CheckLg/>담당 역할</th>
+                                <td>- 전체 레이아웃 기본 디자인 및 구현<br/>
+                                    - Frontend, Backend 개발 환경 구축<br/>
+                                    - github 형상관리<br/>
+                                    - 메인 페이지 작업<br/>
+                                    - 펀딩 리스트, 상세, 작성 페이지 작업
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>

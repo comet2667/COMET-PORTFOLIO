@@ -42,6 +42,21 @@
             }
             .projects__right{
                 width: 47%;
+                a{
+                    text-decoration: none;
+                    color: rgb(35, 149, 241)
+                }
+                th{
+                    display: flex;
+                    padding-right: 20px;
+                    svg{
+                        margin-right: 10px;
+                    }
+                }
+                th, td{
+                    padding-bottom: 20px;
+                }
+                
             }
             .projects__line{
                 width: 2px;
