@@ -13,7 +13,8 @@
 
     .projects__box{
         background-color: rgb(238, 238, 238);
-        margin-top: 50px;
+        margin-top: 80px;
+        margin-bottom: 50px;
         width: 1300px;
         border-radius: 15px;
         display: flex;
@@ -23,6 +24,10 @@
         h2{
             color: rgb(55, 58, 64);
             font-size: 40px;
+        }
+        h3{
+            margin-top: 20px;
+            color: rgba(55, 58, 64, 0.671);
         }
         .projects__slide{
             width: 70%;
