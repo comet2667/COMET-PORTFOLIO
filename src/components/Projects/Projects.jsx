@@ -79,9 +79,11 @@ function Projects() {
                                 <th><CheckLg/>담당 역할</th>
                                 <td>- 전체 레이아웃 기본 디자인 및 구현<br/>
                                     - Frontend, Backend 개발 환경 구축<br/>
+                                    - Frontend, Backend 개발 가이드 작성<br/>
                                     - github 형상관리<br/>
                                     - 메인 페이지 작업<br/>
-                                    - 펀딩 리스트, 상세, 작성 페이지 작업
+                                    - 펀딩 리스트, 상세, 작성 페이지 작업<br/>
+                                    - 부트페이 예약결제 API 연동
                                 </td>
                             </tr>
                         </table>
