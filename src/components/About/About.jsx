@@ -2,7 +2,7 @@ import './About.scss';
 import profile from '../../assets/profile.png'
 import { Book, Calendar2EventFill, Mailbox2, MapFill, PersonArmsUp, PhoneFill } from 'react-bootstrap-icons';
 
-function About() {
+function About({menuRef}) {
     return (
         <>
             <div className='about__container'>
@@ -12,7 +12,7 @@ function About() {
                     <p>풀스택 개발자의 시각을 지향하는 <b>박혜성</b>입니다.</p>
                 </div>
             </div>
-            <div className='profile__container'>
+            <div className='profile__container' ref={e=>menuRef.current[1]=e}>
                 <h1>About</h1>
                 <div className='profile__content'>
                     <img src={profile} />
