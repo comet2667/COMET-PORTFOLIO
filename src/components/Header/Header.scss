@@ -1,4 +1,4 @@
-.header__container{
+.header__container {
     background-color: rgb(238, 238, 238);
     height: 60px;
     display: flex;
@@ -9,15 +9,28 @@
     color: rgb(55, 58, 64);
     box-shadow: 0px 1px 10.6px rgba(0, 0, 0, 0.226);
     z-index: 999;
-    h2{
+
+    h2 {
         cursor: pointer;
+        transition-duration: 0.1s;
+
+        &:hover {
+            color: rgba(55, 58, 64, 0.459);
+        }
     }
-    .header__menu{
+
+    .header__menu {
         display: flex;
-        p{
+
+        p {
             margin-left: 35px;
             font-weight: bold;
             cursor: pointer;
+            transition-duration: 0.1s;
+
+            &:hover {
+                color: rgba(55, 58, 64, 0.459);
+            }
         }
     }
 }

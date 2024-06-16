@@ -11,12 +11,6 @@ const router = createHashRouter([
   {
     path: '/',
     element: <App/>,
-    children: [
-      {
-        path: '/',
-        element: <Home/>
-      }
-    ]
   },
   {
     path: '/indie',

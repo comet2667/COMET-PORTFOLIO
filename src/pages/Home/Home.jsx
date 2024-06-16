@@ -15,9 +15,6 @@ function Home({menuRef}) {
             <div ref={e=>menuRef.current[3]=e}>
                 <Projects />
             </div>
-            <div ref={e=>menuRef.current[4]=e}>
-                <Career />
-            </div>
         </div>
     );
 }

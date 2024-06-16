@@ -16,6 +16,9 @@ import omok1 from '../../assets/project/omok/omok_1.png';
 import omok2 from '../../assets/project/omok/omok_2.png';
 import omok3 from '../../assets/project/omok/omok_3.png';
 
+import portfolio1 from '../../assets/project/portfolio/portfolio_1.png';
+import portfolio2 from '../../assets/project/portfolio/portfolio_2.png';
+
 import { BookFill, BracesAsterisk, CheckCircleFill, CheckLg, CodeSlash, Github, Link45deg, RocketTakeoffFill } from 'react-bootstrap-icons';
 
 function Projects() {
@@ -56,33 +59,33 @@ function Projects() {
                     <div className='projects__right'>
                         <table>
                             <tr>
-                                <th><Github/>GitHub</th>
+                                <th><Github />GitHub</th>
                                 <td><a href="https://github.com/indiean-project/IA-FE">Frontend</a> | <a href="https://github.com/indiean-project/IA-BE">Backend</a></td>
                             </tr>
                             <tr>
-                                <th><Link45deg/>URL</th>
+                                <th><Link45deg />URL</th>
                                 <td><a href="http://3.38.89.54:8080/">http://3.38.89.54:8080/</a></td>
                             </tr>
                             <tr>
-                                <th><CodeSlash/>Frontend</th>
+                                <th><CodeSlash />Frontend</th>
                                 <td>React, Vite, Sass, Axios, Recoil</td>
                             </tr>
                             <tr>
-                                <th><BracesAsterisk/>Backend</th>
+                                <th><BracesAsterisk />Backend</th>
                                 <td>SpringBoot, JPA, Lombok, PostgreSQL</td>
                             </tr>
                             <tr>
-                                <th><RocketTakeoffFill/>Deployment</th>
+                                <th><RocketTakeoffFill />Deployment</th>
                                 <td>AWS EC2</td>
                             </tr>
                             <tr>
-                                <th><CheckLg/>담당 역할</th>
-                                <td>- 전체 레이아웃 기본 디자인 및 구현<br/>
-                                    - Frontend, Backend 개발 환경 구축<br/>
-                                    - Frontend, Backend 개발 가이드 작성<br/>
-                                    - github 형상관리<br/>
-                                    - 메인 페이지 작업<br/>
-                                    - 펀딩 리스트, 상세, 작성 페이지 작업<br/>
+                                <th><CheckLg />담당 역할</th>
+                                <td>- 전체 레이아웃 기본 디자인 및 구현<br />
+                                    - Frontend, Backend 개발 환경 구축<br />
+                                    - Frontend, Backend 개발 가이드 작성<br />
+                                    - github 형상관리<br />
+                                    - 메인 페이지 작업<br />
+                                    - 펀딩 리스트, 상세, 작성 페이지 작업<br />
                                     - 부트페이 예약결제 API 연동
                                 </td>
                             </tr>
@@ -109,39 +112,39 @@ function Projects() {
                         Spring과 React에 대한 이해가 전무한 상태로 시작하였습니다.<br />
                         동시에 프로젝트 인원 5명 중 3명이 포기하여 2명만 남게되는 사소한 문제가 발생하긴 하였지만, 당시 기준으로 많은 파트를 배정 받게 되어<br />
                         오히려 개인의 학습에는 큰 도움이 되었습니다.<br /><br />
-                        프론트엔드 개발 경력자이자 당시 팀장이었던 학우분께 많은 도움을<br /> 받았으며, 소규모 프로젝트인만큼 유효성 검사나 편의성 기능 같은<br/> 디테일에 공을 들여
+                        프론트엔드 개발 경력자이자 당시 팀장이었던 학우분께 많은 도움을<br /> 받았으며, 소규모 프로젝트인만큼 유효성 검사나 편의성 기능 같은<br /> 디테일에 공을 들여
                         완성한 프로젝트 입니다.
                     </div>
                     <div className='projects__line'></div>
                     <div className='projects__right'>
                         <table>
                             <tr>
-                                <th><Github/>GitHub</th>
+                                <th><Github />GitHub</th>
                                 <td><a href="https://github.com/comet2667/zipplanet-frontend">Frontend</a> | <a href="https://github.com/comet2667/zipplanet-backend">Backend</a></td>
                             </tr>
                             <tr>
-                                <th><BookFill/>Notion</th>
+                                <th><BookFill />Notion</th>
                                 <td><a href="https://fifth-value-a2f.notion.site/d6a79d46b2f24d8cbe7fc137fcaeca35">프로젝트 노션 방문</a></td>
                             </tr>
                             <tr>
-                                <th><CodeSlash/>Frontend</th>
+                                <th><CodeSlash />Frontend</th>
                                 <td>React, Vite, Sass, Axios, Recoil</td>
                             </tr>
                             <tr>
-                                <th><BracesAsterisk/>Backend</th>
+                                <th><BracesAsterisk />Backend</th>
                                 <td>SpringBoot, Mybatis, Lombok, Oracle</td>
                             </tr>
                             <tr>
-                                <th><RocketTakeoffFill/>Deployment</th>
+                                <th><RocketTakeoffFill />Deployment</th>
                                 <td>X</td>
                             </tr>
                             <tr>
-                                <th><CheckLg/>담당 역할</th>
-                                <td>- 로그인 페이지 작업<br/>
-                                    - 회원가입 페이지 작업<br/>
-                                    - 마이페이지 작업<br/>
-                                    - 계정 찾기 페이지 작업<br/>
-                                    - 이메일 인증 구현<br/>
+                                <th><CheckLg />담당 역할</th>
+                                <td>- 로그인 페이지 작업<br />
+                                    - 회원가입 페이지 작업<br />
+                                    - 마이페이지 작업<br />
+                                    - 계정 찾기 페이지 작업<br />
+                                    - 이메일 인증 구현<br />
                                 </td>
                             </tr>
                         </table>
@@ -172,21 +175,61 @@ function Projects() {
                     <div className='projects__right'>
                         <table>
                             <tr>
-                                <th><Github/>GitHub</th>
+                                <th><Github />GitHub</th>
                                 <td><a href="https://github.com/comet2667/JavaFreeProject">Source Code</a></td>
                             </tr>
                             <tr>
-                                <th><BracesAsterisk/>Backend</th>
+                                <th><BracesAsterisk />Backend</th>
                                 <td>Java, Oracle</td>
                             </tr>
                             <tr>
-                                <th><CheckLg/>주요 기능</th>
-                                <td>- server → client간 멀티플레이<br/>
-                                    - 싱글 플레이<br/>
-                                    - 전체 대국 기록 저장 및 조회(JDBC)<br/>
-                                    - 직전 기보 조회<br/>
+                                <th><CheckLg />주요 기능</th>
+                                <td>- server → client간 멀티플레이<br />
+                                    - 싱글 플레이<br />
+                                    - 전체 대국 기록 저장 및 조회(JDBC)<br />
+                                    - 직전 기보 조회<br />
                                     - 매 턴 승자 검증 및 중복착수 검증
                                 </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div className='projects__box'>
+                <h2>포트폴리오</h2>
+                <h3>1인 개발 | 2024.06.</h3>
+                <div className='projects__slide'>
+                    <Slider {...settings}>
+                        <img src={portfolio1} />
+                        <img src={portfolio2} />
+                    </Slider>
+                </div>
+                <div className='projects__content'>
+                    <div className='projects__left'>
+                        <b>React+Vite 기반의 포트폴리오 웹페이지입니다.</b><br /><br />
+                        지금 보고계시는 웹페이지에 해당하며 프로젝트 정리를 위해<br /> 제작하였습니다.<br /><br />
+                        진행하고 있는 프로젝트가 마무리될 때마다 업데이트할 계획이며,<br /> 현재 보고계신 페이지 외에도
+                        프로젝트 상세 설명, 트러블 슈팅 등을<br /> 정리할 수 있는 페이지에 대한 추가 작업을 계획 중입니다.
+                    </div>
+                    <div className='projects__line'></div>
+                    <div className='projects__right'>
+                        <table>
+                            <tr>
+                                <th><Github />GitHub</th>
+                                <td><a href="https://github.com/comet2667/portfolio">Source Code</a></td>
+                            </tr>
+                            <tr>
+                                <th><Link45deg />URL</th>
+                                <td><a href="https://comet2667.github.io/portfolio/">https://comet2667.github.io/portfolio/</a></td>
+                            </tr>
+                            <tr>
+                                <th><CodeSlash />Frontend</th>
+                                <td>React, Vite, Sass</td>
+                            </tr>
+                            <tr>
+                                <th><RocketTakeoffFill />Deployment</th>
+                                <td>GitHub Pages</td>
                             </tr>
                         </table>
                     </div>

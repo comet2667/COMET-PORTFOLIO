@@ -6,7 +6,7 @@ function About({menuRef}) {
     return (
         <>
             <div className='about__container'>
-                <h1>박혜성 웹 개발자 포트폴리오</h1>
+                <h1>신입 웹 개발자 포트폴리오</h1>
                 <div className='about__content'>
                     <p>안녕하세요, 백엔드 개발자를 지망하고</p>
                     <p>풀스택 개발자의 시각을 지향하는 <b>박혜성</b>입니다.</p>

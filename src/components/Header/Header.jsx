@@ -15,7 +15,6 @@ function Header({menuRef}){
                 <p onClick={()=>onClickMenu(1)}>About</p>
                 <p onClick={()=>onClickMenu(2)}>Skills</p>
                 <p onClick={()=>onClickMenu(3)}>Projects</p>
-                <p onClick={()=>onClickMenu(4)}>Career</p>
             </div>
         </div>
     );
