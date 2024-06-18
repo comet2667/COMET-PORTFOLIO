@@ -80,7 +80,8 @@ function Skills() {
                     <img src={htmlLogo} />
                     <div className='skills__line'></div>
                     <div>
-                        반응형 까지 고려하지는 못하나 특정 요소를 원하는 위치에 배치하거나 특정 조건에 따라 동작을 제어할 수 있습니다.
+                        특정 요소를 원하는 위치에 배치하거나 특정 조건에 따라 동작을 제어할 수 있습니다.<br/>
+                        ES6 문법에 익숙합니다.
                     </div>
                 </div>
                 <div className='skills__item'>

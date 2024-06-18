@@ -2,17 +2,20 @@ import './About.scss';
 import profile from '../../assets/profile.png'
 import { Book, Calendar2EventFill, Mailbox2, MapFill, PersonArmsUp, PhoneFill } from 'react-bootstrap-icons';
 
-function About({menuRef}) {
+function About({ menuRef }) {
     return (
         <>
             <div className='about__container'>
-                <h1>신입 웹 개발자 포트폴리오</h1>
+                <h1>박혜성 웹 개발자 포트폴리오</h1>
                 <div className='about__content'>
-                    <p>안녕하세요, 백엔드 개발자를 지망하고</p>
-                    <p>풀스택 개발자의 시각을 지향하는 <b>박혜성</b>입니다.</p>
+                    <p>안녕하세요, 어제보다 오늘 더 나은 코드를 작성하기 위해
+                    </p>
+                    <p>
+                        매일 노력하며 성장하는 신입 웹 개발자 <b>박혜성</b>입니다.
+                    </p>
                 </div>
             </div>
-            <div className='profile__container' ref={e=>menuRef.current[1]=e}>
+            <div className='profile__container' ref={e => menuRef.current[1] = e}>
                 <h1>About</h1>
                 <div className='profile__content'>
                     <img src={profile} />
